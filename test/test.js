@@ -3,10 +3,10 @@ const ISO6391 = require('../build/index');
 
 describe('getName()', function() {
   it('en', function() {
-    assert.equal(ISO6391.getName('en'), 'English');
+    assert.equal(ISO6391.getName('en'), 'Engelsk');
   });
   it('zh', function() {
-    assert.equal(ISO6391.getName('zh'), 'Chinese');
+    assert.equal(ISO6391.getName('zh'), 'Kinesisk');
   });
   it('xx', function() {
     assert.equal(ISO6391.getName('xx'), '');
@@ -33,10 +33,10 @@ describe('getNativeName()', function() {
 
 describe('getCode()', function() {
   it('English', function() {
-    assert.equal(ISO6391.getCode('English'), 'en');
+    assert.equal(ISO6391.getCode('Engelsk'), 'en');
   });
   it('Chinese', function() {
-    assert.equal(ISO6391.getCode('Chinese'), 'zh');
+    assert.equal(ISO6391.getCode('Kinesisk'), 'zh');
   });
   it('中文', function() {
     assert.equal(ISO6391.getCode('中文'), 'zh');
@@ -69,12 +69,12 @@ describe('getLanguages()', function() {
     assert.deepEqual(ISO6391.getLanguages(['en', 'zh', 'xx', 'toString']), [
       {
         code: 'en',
-        name: 'English',
+        name: 'Engelsk',
         nativeName: 'English',
       },
       {
         code: 'zh',
-        name: 'Chinese',
+        name: 'Kinesisk',
         nativeName: '中文',
       },
       {
