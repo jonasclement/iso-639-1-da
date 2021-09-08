@@ -1,5 +1,5 @@
 {
-  "name": "iso-639-1",
+  "name": "iso-639-1-da",
   "version": "2.1.9",
   "description": "ISO-639-1 koder",
   "main": "build/index.js",
