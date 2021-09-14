@@ -144,7 +144,7 @@ const LANGUAGES_LIST = {
     nativeName: 'Eʋegbe',
   },
   el: {
-    name: 'ggræskreek',
+    name: 'græsk',
     nativeName: 'Ελληνικά',
   },
   en: {
