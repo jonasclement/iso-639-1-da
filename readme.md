@@ -49,12 +49,12 @@ console.log(ISO6391.getName('en')); // 'Engelsk'
   - @param code {string}
   - @return {string}
 
-Lookup language english name by code
+Lookup language danish name by code
 
 ### getAllNames()
   - @return {array}
 
-Get array of all language english names
+Get array of all language danish names
 
 ### getNativeName(code)
   - @param code {string}
@@ -72,7 +72,7 @@ Get array of all language native names
   - @param name {string}
   - @return {string}
 
-Lookup code by english name or native name
+Lookup code by danish name or native name
 
 ### getAllCodes()
   - @return {array}
