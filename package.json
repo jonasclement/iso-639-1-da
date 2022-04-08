@@ -1,6 +1,6 @@
 {
   "name": "iso-639-1-da",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "ISO-639-1 koder",
   "main": "build/index.js",
   "module": "src/index.js",

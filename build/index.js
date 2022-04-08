@@ -1245,8 +1245,8 @@ var LANGUAGES_LIST = {
     nativeName: 'Ekakairũ Naoero'
   },
   nb: {
-    name: 'norsk bokmål',
-    nativeName: 'Norsk bokmål'
+    name: 'norsk (bokmål)',
+    nativeName: 'Norsk (bokmål)'
   },
   nd: {
     name: 'nord-ndebele',
